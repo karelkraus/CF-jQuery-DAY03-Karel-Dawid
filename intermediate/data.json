@@ -1,0 +1,39 @@
+var data = `
+	[
+		{
+			"name":"Apple",
+			"type":"phone",
+			"price":"150$",
+			"img":"phone_iphone.png",
+			"quantity":60
+		},
+		{
+			"name":"Samsung",
+			"type":"tablet",
+			"price":"100$",
+			"img":"tablet_samsung.png",
+			"quantity":85
+		},
+		{
+			"name":"Samsung",
+			"type":"notebook",
+			"price":"350$",
+			"img": "notebook_samsung.png",
+			"quantity":30
+		},
+		{
+			"name":"iPad",
+			"type":"tablet",
+			"price":"130$",
+			"img":"tablet_ipad.png",
+			"quantity":75
+		},
+		{
+			"name":"Samsung",
+			"type":"phone",
+			"price":"200$",
+			"img": "phone_samsung.png",
+			"quantity":40
+		}
+	]
+`
