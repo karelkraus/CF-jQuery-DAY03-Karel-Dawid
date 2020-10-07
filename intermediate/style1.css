@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(206, 206, 206);
+}
+.phone {
+    background-color: rgb(0, 128, 0, 0.6 );
+}
+.tablet {
+    background-color: rgb(0, 0, 255, 0.6);
+}
+.notebook {
+    background-color: rgb(255, 0, 0, 0.6);
+}
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    padding-left: 13%;
+}
+#box {
+    border: 2px solid black;
+    border-radius: 2px;
+    flex-basis: 35%;
+    margin: 2%;
+    display: flex;
+    padding: 10px;
+}
+.box{
+    width: 44%;
+    text-align: center;
+}
+img{
+    width: 53%;
+    object-fit: scale-down;
+}
+.text{
+    font-size: 33px;
+    margin-bottom: auto;
+}
+.minus{
+    background-color: rgb(255, 255, 255, 0.7);
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 60%;
+    height: 30px;
+    margin-bottom: 10%;
+}
+.minus:hover{
+    background-color: rgb(255, 255, 255, 0.9);
+}
+.btnMinus{
+    font-size: 30px;
+}
+.text2{
+    margin-top: 0;
+    color: rgb(112, 0, 0);
+}
